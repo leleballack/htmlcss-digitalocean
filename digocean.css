@@ -6,7 +6,14 @@
 .pd-0 {
   padding: 0;
 }
-
+.navbar-default {
+  background-color: white;
+  border-color: white;
+  margin-bottom: 0;
+}
+.fishblue {
+  background-color: #0243F5;
+}
 /* FIRST NAV BAR */
 nav .btn-xs {
   background-color: #3DC6C6;
@@ -14,12 +21,19 @@ nav .btn-xs {
 
 /* SECOND NAV BAR */
 
-header .navbar-brand img {
-  max-width: 200px;
+header .navbar-brand i,
+a[href^="##"] {
+  color: #01448E;
 }
-
+/* .navbar-right {
+  padding: 0;
+} */
 .navbar-right .btn {
   background-color: white;
   color: #1D75FA;
   border: 1px solid #1D75FA;
+}
+/* MAIN  */
+main {
+  height: 600px;
 }
