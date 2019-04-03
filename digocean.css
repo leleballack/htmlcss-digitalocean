@@ -3,7 +3,23 @@
   font-size: 12px;
 }
 
+.pd-0 {
+  padding: 0;
+}
+
 /* FIRST NAV BAR */
 nav .btn-xs {
-  background-color: #3DC6C6
+  background-color: #3DC6C6;
+}
+
+/* SECOND NAV BAR */
+
+header .navbar-brand img {
+  max-width: 200px;
+}
+
+.navbar-right .btn {
+  background-color: white;
+  color: #1D75FA;
+  border: 1px solid #1D75FA;
 }
