@@ -133,7 +133,8 @@ a[href^="##"] {
 .designed .row .col-lg-2 i {
   padding-top: 300px;
 }
-.designed .row .col-lg-8 div i {
+.designed .row .col-lg-8 div i,
+.development .col-lg-4 div i {
   color: blue;
   padding-right: 10px;
 }
@@ -160,3 +161,9 @@ padding-right: 40px;
   float: right;
 }
 /* WHITE DEVELOPMENT SECTION */
+.development .logo {
+  max-width: 200px;
+}
+/* .development .row .col-lg-2 i {
+  padding-top: 300px;
+} */
