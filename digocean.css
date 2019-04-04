@@ -39,7 +39,6 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .navbar-default,
 .panel-default > .panel-heading {
   background-color: white;
@@ -60,7 +59,9 @@
 .darkblue {
   background-color: #031B4E;
 }
+
 /* FIRST NAV BAR */
+
 nav .btn-xs {
   background-color: #3DC6C6;
 }
@@ -77,6 +78,7 @@ a[href^="##"] {
   color: #1D75FA;
   border: 1px solid #1D75FA;
 }
+
 /* MAIN  */
 
 .fishblue .row h1 {
@@ -93,7 +95,9 @@ a[href^="##"] {
   background-color: white;
   border-radius: 5%;
 }
+
 /* WHITE SUB MAIN  */
+
 .uppergrey {
   opacity: 0.7;
   font-weight: bold;
@@ -104,7 +108,9 @@ a[href^="##"] {
 .beige .row .list-inline img {
   max-width: 150px;
 }
+
 /* DEPLOY WHITE SECTION */
+
 .deploy .row h3 {
   opacity: 0.7;
   line-height: 1.5;
@@ -125,7 +131,9 @@ a[href^="##"] {
   opacity: 0.7;
   line-height: 1.5;
 }
+
 /* DESIGNED WHITE SECTION */
+
 .designed .row img {
   border-radius: 5px;
   max-width: 100%;
@@ -138,12 +146,15 @@ a[href^="##"] {
   color: blue;
   padding-right: 10px;
 }
+
 /* FEATURES WHITE SECTION */
+
 .features .row a {
   font-weight: bold;
 }
 
 /* SERVICE BLUE SECTION */
+
 .darkblue .row h5 {
   border-bottom: 0.5px solid lightgrey;
   padding-bottom: 15px;
@@ -156,14 +167,20 @@ a[href^="##"] {
 font-weight: bold;
 padding-right: 40px;
 }
-.darkblue .row a {
+.darkblue .row .list a {
   color: #4dffff;
   float: right;
 }
 /* WHITE DEVELOPMENT SECTION */
+
 .development .logo {
   max-width: 200px;
 }
 /* BLUE SMALL SECTION */
 
+
 /* DARKBLUE FOOTER */
+footer .col-lg-2 ul {
+    list-style: none;
+    line-height: 2;
+}
