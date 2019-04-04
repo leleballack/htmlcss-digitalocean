@@ -141,4 +141,22 @@ a[href^="##"] {
 .features .row a {
   font-weight: bold;
 }
+
 /* SERVICE BLUE SECTION */
+.darkblue .row h5 {
+  border-bottom: 0.5px solid lightgrey;
+  padding-bottom: 15px;
+  color: white;
+}
+.darkblue .row h5:last-child {
+  border: none;
+}
+.darkblue .col-lg-6 strong {
+font-weight: bold;
+padding-right: 40px;
+}
+.darkblue .row a {
+  color: #4dffff;
+  float: right;
+}
+/* WHITE DEVELOPMENT SECTION */
