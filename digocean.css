@@ -2,9 +2,13 @@
 .ft-12 {
   font-size: 12px;
 }
-.ptb-50 {
+.ptb-150 {
   padding-top: 150px;
   padding-bottom: 150px;
+}
+.ptb-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .pt-30 {
   padding-top: 30px;
@@ -28,6 +32,9 @@
 }
 .fishblue {
   background-color: #0243F5;
+}
+.beige {
+  background-color: #F3F5F9;
 }
 /* FIRST NAV BAR */
 nav .btn-xs {
@@ -61,4 +68,15 @@ a[href^="##"] {
 .fishblue .card {
   background-color: white;
   border-radius: 5%;
+}
+/* WHITE SUB MAIN  */
+.txtgrey {
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+.beige .row .list-inline img {
+  max-width: 150px;
 }
