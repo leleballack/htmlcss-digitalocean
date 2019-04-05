@@ -1,5 +1,7 @@
 /* SHARED  */
-
+.navbarup {
+  height: 120px;
+}
 /* SHARED FONT */
 .ft-12 {
   font-size: 12px;
@@ -184,4 +186,42 @@ padding-right: 40px;
 footer .col-lg-2 ul {
     list-style: none;
     line-height: 2;
+}
+
+@media all and (max-width: 768px) {
+  .ptb-150 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .ptb-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .designed .row .col-lg-2 i {
+    padding-top: 50px;
+  }
+  .container-fluid {
+    background-color: #0049FF;
+    }
+ nav {
+   display: none;
+ }
+ .fishblue {
+   background-image: none;
+   background-color: #0049FF;
+ }
+  .navbar-header {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+ .navbar-default .navbar-toggle .icon-bar {
+   background-color: white;
+ }
+ .navbar-default .navbar-toggle {
+   border-color: transparent;
+ }
+ .navbar-default .navbar-toggle:hover {
+   background-color: lightblue;
+ }
 }
