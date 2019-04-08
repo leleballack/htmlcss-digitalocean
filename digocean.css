@@ -224,4 +224,10 @@ footer .col-lg-2 ul {
  .navbar-default .navbar-toggle:hover {
    background-color: lightblue;
  }
+ .deploy .row ul {
+   padding-bottom: 30px;
+ }
+ .designed .row {
+   padding-top: 0;
+ }
 }
